@@ -1,0 +1,90 @@
+.nav {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  color: #000;
+  font-family: 'Roboto Mono';
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 105px;
+}
+
+.ul {
+  display: flex;
+  padding: .5rem;
+  margin-top: 1.1rem;
+}
+
+.skills {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+  cursor: pointer;
+  left: 906px;
+  font-style: normal;
+  display: flex;
+}
+
+.projects {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+  cursor: pointer;
+  left: 944px;
+  font-style: normal;
+  display: flex;
+}
+
+.about {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+  cursor: pointer;
+  left: 982px;
+  font-style: normal;
+  display: flex;
+}
+
+.contacts {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+  cursor: pointer;
+  left: 1020px;
+  font-style: normal;
+  display: flex;
+}
+
+.download {
+  width: 120px;
+  height: 52px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 70%;
+  margin-top: 10px;
+
+  border: transparent;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.363);
+  font-family: 'Roboto Mono';
+  cursor: pointer;
+}
