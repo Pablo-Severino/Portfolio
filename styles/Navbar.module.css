@@ -2,10 +2,9 @@
   width: 100%;
   height: 72px;
   display: flex;
-  color: #000;
+  color: #ffffff;
   font-family: 'Roboto Mono';
-  background-color: #fff;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+  background-color: #192934;
 }
 
 .logo {
@@ -75,7 +74,7 @@
 .download {
   width: 120px;
   height: 52px;
-  color: #000;
+  color: #fff;
   font-size: 15px;
   font-weight: 700;
   margin-left: 70%;
@@ -83,7 +82,7 @@
 
   border: transparent;
   border-radius: 8px;
-  background-color: rgb(255, 255, 255);
+  background-color: #1a3344;
   box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.363);
   font-family: 'Roboto Mono';
   cursor: pointer;

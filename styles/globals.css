@@ -15,9 +15,6 @@ body {
   height: auto;
   color: #000;
   font-family: 'Roboto Mono', sans-serif;
-  background-size: 100%;
-  background-image: url(../public/1920x1080.svg);
-  background-repeat: no-repeat;
 }
 
 a {

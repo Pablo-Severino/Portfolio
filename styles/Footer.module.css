@@ -1,16 +1,14 @@
 .footer {
   display: flex;
   flex: 1;
-  color: #000;
+  color: #fff;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
   align-items: center;
-  background-color: #fff;
-  box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.363);
+  justify-content: center;
+  background-color: #000;
 }
 
-.footer a {
+.footer Image {
   display: flex;
   justify-content: center;
   align-items: center;
