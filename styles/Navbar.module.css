@@ -4,7 +4,7 @@
   display: flex;
   color: #ffffff;
   font-family: 'Roboto Mono';
-  background-color: #192934;
+  background-color: #17181F;
 }
 
 .logo {
@@ -45,19 +45,6 @@
   display: flex;
 }
 
-.about {
-  position: relative;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
-  list-style: none;
-  cursor: pointer;
-  left: 982px;
-  font-style: normal;
-  display: flex;
-}
-
 .contacts {
   position: relative;
   text-decoration: none;
@@ -69,21 +56,4 @@
   left: 1020px;
   font-style: normal;
   display: flex;
-}
-
-.download {
-  width: 120px;
-  height: 52px;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 700;
-  margin-left: 70%;
-  margin-top: 10px;
-
-  border: transparent;
-  border-radius: 8px;
-  background-color: #1a3344;
-  box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.363);
-  font-family: 'Roboto Mono';
-  cursor: pointer;
 }

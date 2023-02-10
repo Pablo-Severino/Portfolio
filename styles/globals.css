@@ -14,16 +14,10 @@ body {
   width: auto;
   height: auto;
   color: #000;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'JetBrans Mono', sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 615px;
+  left: 0px;
+  top: 72px;
+
+  color: #ffffff;
+  background-image: url(../public/headerbg.svg);
+}
+
+.section {
+  width: 100%;
+  height: 615px;
+  background-image: url(../public/estrelas.svg);
+}
+
+.astronaut {
+  position: absolute;
+  width: 728.41px;
+  height: 728.41px;
+  left: 779px;
+  top: -22px;
+
+  background: url(../public/astronaut.png);
+}
