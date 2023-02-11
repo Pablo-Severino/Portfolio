@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 550vh;
+  min-height: 540vh;
   background-color: #17181F;
 }
 
@@ -403,18 +403,18 @@
 
 .skills {
   position: absolute;
-  width: 870px;
-  height: 273px;
-  left: 215px;
-  top: 2768px;
+  width: 1087px;
+  height: 666px;
+  left: 212px;
+  top: 2612px;
 }
 
 .skills h2 {
   position: absolute;
   width: 253px;
   height: 22px;
-  left: 0px;
-  top: 0px;
+  left: 29px;
+  top: 196px;
 
   font-family: 'JetBrains Mono';
   font-style: normal;
@@ -431,8 +431,8 @@
   position: absolute;
   width: 759px;
   height: 201px;
-  left: 114px;
-  top: 72px;
+  left: 132px;
+  top: 268px;
 }
 
 .javascript {
@@ -915,8 +915,8 @@
   position: absolute;
   width: 324px;
   height: 51px;
-  left: 234px;
-  top: 3399px;
+  left: 3px;
+  top: 105px;
 }
 
 .info h2 {
@@ -959,8 +959,8 @@
   position: absolute;
   width: 184px;
   height: 47px;
-  left: 234px;
-  top: 3506px;
+  left: 3px;
+  top: 212px;
 }
 
 .city h3 {
@@ -999,12 +999,20 @@
   color: #FFFFFF;
 }
 
+.contacts {
+  position: absolute;
+  width: 908px;
+  height: 532px;
+  left: 231px;
+  top: 3218px;
+}
+
 .contact {
   position: absolute;
   width: 273px;
   height: 119px;
-  left: 231px;
-  top: 3575px;
+  left: 0px;
+  top: 281px;
 }
 
 .contact h4 {
@@ -1117,6 +1125,6 @@
   position: absolute;
   width: 371px;
   height: 285px;
-  left: 768px;
-  top: 3436px;
+  left: 537px;
+  top: 142px;
 }

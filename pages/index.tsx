@@ -46,7 +46,7 @@ export default function Home() {
       <IndexNavbar />
       <main className={styled.main}>
         <IndexHeader />
-        <div className={styled.projects}>
+        <div className={styled.projects} id="projects">
           <h2>Projects</h2>
           <div className={styled.StackBitzUI}>
             <div className={styled.preview1}>
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styled.skills}>
+        <div className={styled.skills} id="skills">
           <h2>Skills & Tools</h2>
           <div className={styled.tools}>
             <div className={styled.javascript}>
@@ -326,7 +326,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styled.contacts}>
+        <div className={styled.contacts} id="contacts">
           <div className={styled.info}>
             <h2>Give me a touch!</h2>
             <p>I love exchanging ideas about codes!</p>
