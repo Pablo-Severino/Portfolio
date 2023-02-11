@@ -2,21 +2,8 @@
   display: flex;
   flex: 1;
   color: #fff;
-  padding: 2rem 0;
+  padding: 1rem 0;
   align-items: center;
   justify-content: center;
   background-color: #000;
-}
-
-.footer Image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-  margin-bottom: 30px;
 }

@@ -7,12 +7,6 @@
   background-color: #17181F;
 }
 
-.logo {
-  position: absolute;
-  top: 10px;
-  left: 105px;
-}
-
 .ul {
   display: flex;
   padding: .5rem;
@@ -20,40 +14,58 @@
 }
 
 .skills {
-  position: relative;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
-  list-style: none;
-  cursor: pointer;
-  left: 906px;
+  position: absolute;
+  width: 58px;
+  height: 14px;
+  left: 65vw;
+  top: 29px;
+
+  font-family: 'JetBrains Mono';
   font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
   display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .projects {
-  position: relative;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
-  list-style: none;
-  cursor: pointer;
-  left: 944px;
+  position: absolute;
+  width: 77px;
+  height: 14px;
+  left: 73vw;
+  top: 29px;
+
+  font-family: 'JetBrains Mono';
   font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
   display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .contacts {
-  position: relative;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 21px;
-  list-style: none;
-  cursor: pointer;
-  left: 1020px;
+  position: absolute;
+  width: 69px;
+  height: 14px;
+  left: 82vw;
+  top: 29px;
+
+  font-family: 'JetBrains Mono';
   font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
   display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+  cursor: pointer;
 }

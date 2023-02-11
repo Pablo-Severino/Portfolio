@@ -7,10 +7,7 @@ export default function IndexFooter() {
   return (
     <footer className={styles.footer}>
       <span className={styles.logo}>
-        <Image src="Github.svg" alt="Vercel Logo" width={32} height={32} />
-        <Image src="Instagram.svg" alt="Vercel Logo" width={32} height={32} />
-        <Image src="Twitter.svg" alt="Vercel Logo" width={32} height={32} />
-        <Image src="Linkedin.svg" alt="Vercel Logo" width={32} height={32} />
+        2023&copy; Pablo Severino
       </span>
     </footer>
   );

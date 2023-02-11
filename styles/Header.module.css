@@ -15,12 +15,49 @@
   background-image: url(../public/estrelas.svg);
 }
 
+.section h1 {
+  position: absolute;
+  width: 38vw;
+  height: 9vw;
+  left: 10.2vw;
+  top: 170px;
+
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 84px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.section p {
+  position: absolute;
+  width: 23vw;
+  height: 5.7vw;
+  left: 10.5vw;
+  top: 317px;
+
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 111.5%;
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
 .astronaut {
   position: absolute;
   width: 728.41px;
   height: 728.41px;
-  left: 779px;
-  top: -22px;
+  left: 50vw;
 
-  background: url(../public/astronaut.png);
+  background: url(../public/astronaut.svg);
+  background-repeat: no-repeat;
 }
