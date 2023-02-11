@@ -10,8 +10,8 @@ import stackbitz from "@/public/previews/stackbitz.png";
 import sakai from "@/public/previews/sakai.png";
 import galaxy from "@/public/previews/galaxy.png";
 
-import linkedin from "../public/linkedin.svg";
-import linkgithub from "../public/github.svg";
+import linkedin from "@/public/linkedin.svg";
+import linkgithub from "@/public/github.svg";
 import link from "@/public/external-link.svg";
 
 import javascript from "@/public/linguages/javascript.svg";
