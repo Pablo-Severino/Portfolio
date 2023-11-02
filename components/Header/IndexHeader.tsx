@@ -7,9 +7,9 @@ export default function IndexHeader() {
     <>
       <header className={styled.header}>
         <section className={styled.section}>
-          <h1>Hello. I&#39;m Pablo</h1>
+          <h1>Hello.</h1>
+          <h1> I&#39;m Pablo 👋🏻</h1>
           <p>I have a passion for developing accessible websites and applications. and I love this continuous learning of programming.</p>
-          <div className={styled.astronaut} />
         </section>
       </header>
     </>
