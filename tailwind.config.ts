@@ -8,7 +8,15 @@ const config: Config = {
   ],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'future-white': "url('/future-desktop-white.png')",
+        'future-dark': "url('/future-desktop-dark.png')",
+        'vector-white': "url('/Vector-desktop-white.png')",
+        'vector-dark': "url('/Vector-desktop-dark.png')",
+        'vector': "url('/Vector.svg')",
+      }
+    },
   },
   plugins: [],
 }
