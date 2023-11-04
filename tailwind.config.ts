@@ -11,9 +11,18 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'future-white': "url('/future-desktop-white.svg')",
-        'future-dark': "url('/future-desktop-dark.svg')",
         'vector-white': "url('/Vector-desktop-white.svg')",
+        'software-white': "url('/software-white.svg')",
+        'web-white': "url('/web-white.svg')",
+        'mobile-white': "url('/mobile-white.svg')",
+        'code-white': "url('/code-white.svg')",
+        /* Dark */
+        'future-dark': "url('/future-desktop-dark.svg')",
         'vector-dark': "url('/Vector-desktop-dark.svg')",
+        'software-dark': "url('/software-dark.svg')",
+        'web-dark': "url('/web-dark.svg')",
+        'mobile-dark': "url('/mobile-dark.svg')",
+        'code-dark': "url('/code-dark.svg')",
       },
 
       cursor: {

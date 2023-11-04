@@ -21,7 +21,7 @@ export default function IndexNavbar() {
   }, [theme]);
 
   return (
-    <nav className="fixed w-[100%] h-2 z-50 flex items-center bg-[#bababa] bg-opacity-20 dark:bg-[#121212] dark:bg-opacity-20 bg-clip-padding blur-backdrop-filter">
+    <nav className="fixed w-[100%] h-[11vh] z-50 flex items-center bg-[#bababa] bg-opacity-20 dark:bg-[#121212] dark:bg-opacity-20 bg-clip-padding blur-backdrop-filter">
       <Link href="/" className="hover:text-[#434b50] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
         <h1 className="absolute left-[60px] top-[16px] text-2xl font-medium">Pablo._</h1>
       </Link>
@@ -32,7 +32,7 @@ export default function IndexNavbar() {
             <li className="absolute w-[68px] h-3.5 left-[29vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; home</li>
           </div>
         </SmoothScrollLink>
-        <SmoothScrollLink href="#projects">
+        <SmoothScrollLink href="#expertise">
           <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
             <li className="absolute w-[13px] h-2 left-[43.5vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">02</li>
             <li className="absolute w-[117px] h-3.5 left-[36vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; expertise</li>
@@ -59,7 +59,7 @@ export default function IndexNavbar() {
       </ul>
       <label htmlFor="check" className="hidden lg:flex absolute min-w-[46px] h-6 top-[3.8vh] bg-gray-200 cursor-mickey-hover rounded-full right-5">
         <input type="checkbox" id="check" className="sr-only peer" onClick={() => setTheme(!theme)}/>
-        <span className="w-2/5 h-4/5 bg-slate-700 absolute rounded-full left-1 top-0.5 peer-checked:bg-yellow-400 peer-checked:left-6 transition-all duration-500"></span>
+        <span className="absolute w-2/5 h-4/5 bg-slate-700 rounded-full left-1 top-0.5 peer-checked:bg-yellow-400 peer-checked:left-6 transition-all duration-500"></span>
       </label>
 
       {/* Mobile Button */}
