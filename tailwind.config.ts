@@ -10,14 +10,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'future-white': "url('/future-desktop-white.png')",
-        'future-dark': "url('/future-desktop-dark.png')",
-        'vector-white': "url('/Vector-desktop-white.png')",
-        'vector-dark': "url('/Vector-desktop-dark.png')",
-        'vector': "url('/Vector.svg')",
+        'future-white': "url('/future-desktop-white.svg')",
+        'future-dark': "url('/future-desktop-dark.svg')",
+        'vector-white': "url('/Vector-desktop-white.svg')",
+        'vector-dark': "url('/Vector-desktop-dark.svg')",
+      },
+
+      cursor: {
+        'mickey': 'url(/cursor/cursor.cur), default',
+        'mickey-hover': 'url(/cursor/cursor-hover.cur), pointer',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
 export default config

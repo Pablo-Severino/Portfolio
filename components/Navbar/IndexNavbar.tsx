@@ -7,7 +7,6 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 export default function IndexNavbar() {
   const [theme, setTheme] = useState(false);
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("transparent");
 
   const handleNav = () => {
     setNav(!nav);
@@ -22,28 +21,43 @@ export default function IndexNavbar() {
   }, [theme]);
 
   return (
-    <nav style={{backgroundColor: `${color}`}} className="fixed w-[100%] h-2 py-8 flex items-center bg-transparent">
-      <Link href="/">
-        <h1 className="px-14 text-[#06141B] dark:text-white text-2xl font-medium">Pablo._</h1>
+    <nav className="fixed w-[100%] h-2 z-50 flex items-center bg-[#bababa] bg-opacity-20 dark:bg-[#121212] dark:bg-opacity-20 bg-clip-padding blur-backdrop-filter">
+      <Link href="/" className="hover:text-[#434b50] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+        <h1 className="absolute left-[60px] top-[16px] text-2xl font-medium">Pablo._</h1>
       </Link>
-      <ul className="w-[100%] hidden lg:flex gap-5 font-medium text-base flex justify-center">
+      <ul className="w-[100%] hidden lg:flex flex">
         <SmoothScrollLink href="#home">
-          <li className="text-[#06141B] dark:text-white">&#x0002F;&#x0002F; home</li>
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+            <li className="absolute w-[15px] h-[9px] left-[33vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">01</li>
+            <li className="absolute w-[68px] h-3.5 left-[29vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; home</li>
+          </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#projects">
-          <li className="text-[#06141B] dark:text-white">&#x0002F;&#x0002F; expertise</li>
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+            <li className="absolute w-[13px] h-2 left-[43.5vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">02</li>
+            <li className="absolute w-[117px] h-3.5 left-[36vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; expertise</li>
+          </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#project">
-          <li className="text-[#06141B] dark:text-white">&#x0002F;&#x0002F; project</li>
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+            <li className="absolute w-[13px] h-2 left-[52.1vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">03</li>
+            <li className="absolute w-[97px] h-3.5 left-[46vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; project</li>
+          </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#skill">
-          <li className="text-[#06141B] dark:text-white">&#x0002F;&#x0002F; skill</li>
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+            <li className="absolute w-[13px] h-2 left-[59.3vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">04</li>
+            <li className="absolute w-[79px] h-3.5 left-[54.5vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; skill</li>
+          </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#contact">
-          <li className="text-[#06141B] dark:text-white">&#x0002F;&#x0002F; contact</li>
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+            <li className="absolute w-[13px] h-2 left-[68.1vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">05</li>
+            <li className="absolute w-[96px] h-3.5 left-[62vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; contact</li>
+          </div>
         </SmoothScrollLink>
       </ul>
-      <label htmlFor="check" className="hidden lg:flex absolute min-w-[46px] h-6 bg-gray-200 cursor-pointer rounded-full right-5">
+      <label htmlFor="check" className="hidden lg:flex absolute min-w-[46px] h-6 top-[3.8vh] bg-gray-200 cursor-mickey-hover rounded-full right-5">
         <input type="checkbox" id="check" className="sr-only peer" onClick={() => setTheme(!theme)}/>
         <span className="w-2/5 h-4/5 bg-slate-700 absolute rounded-full left-1 top-0.5 peer-checked:bg-yellow-400 peer-checked:left-6 transition-all duration-500"></span>
       </label>
@@ -84,3 +98,4 @@ export default function IndexNavbar() {
     </nav>
   );
 }
+
