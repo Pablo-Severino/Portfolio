@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  scrollbar-width: none;
+}
+
 .blur-backdrop-filter {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);

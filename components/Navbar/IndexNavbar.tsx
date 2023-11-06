@@ -4,7 +4,7 @@ import SmoothScrollLink from "../SmoothScrollLink";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-export default function IndexNavbar() {
+export const IndexNavbar = () => {
   const [theme, setTheme] = useState(false);
   const [nav, setNav] = useState(false);
 
@@ -22,36 +22,36 @@ export default function IndexNavbar() {
 
   return (
     <nav className="fixed w-[100%] h-[11vh] z-50 flex items-center bg-[#bababa] bg-opacity-20 dark:bg-[#121212] dark:bg-opacity-20 bg-clip-padding blur-backdrop-filter">
-      <Link href="/" className="hover:text-[#434b50] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+      <Link href="/" className="hover:text-[#434b50] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
         <h1 className="absolute left-[60px] top-[16px] text-2xl font-medium">Pablo._</h1>
       </Link>
       <ul className="w-[100%] hidden lg:flex flex">
         <SmoothScrollLink href="#home">
-          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
             <li className="absolute w-[15px] h-[9px] left-[33vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">01</li>
             <li className="absolute w-[68px] h-3.5 left-[29vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; home</li>
           </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#expertise">
-          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
             <li className="absolute w-[13px] h-2 left-[43.5vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">02</li>
             <li className="absolute w-[117px] h-3.5 left-[36vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; expertise</li>
           </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#project">
-          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
             <li className="absolute w-[13px] h-2 left-[52.1vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">03</li>
             <li className="absolute w-[97px] h-3.5 left-[46vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; project</li>
           </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#skill">
-          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
             <li className="absolute w-[13px] h-2 left-[59.3vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">04</li>
             <li className="absolute w-[79px] h-3.5 left-[54.5vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; skill</li>
           </div>
         </SmoothScrollLink>
         <SmoothScrollLink href="#contact">
-          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white cursor-mickey-hover">
+          <div className="hover:text-[#5c676d] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
             <li className="absolute w-[13px] h-2 left-[68.1vw] top-[10px] text-opacity-80 text-[10.60px] font-medium">05</li>
             <li className="absolute w-[96px] h-3.5 left-[62vw] top-[3.8vh] text-base font-medium">&#x0002F;&#x0002F; contact</li>
           </div>
@@ -98,4 +98,3 @@ export default function IndexNavbar() {
     </nav>
   );
 }
-
