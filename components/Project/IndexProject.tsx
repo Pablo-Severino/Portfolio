@@ -1,15 +1,15 @@
 import { Inter } from "next/font/google";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin'] })
 
 export const IndexProject = () => {
   return (
     <div className="absolute w-[100%] h-[793px] left-0 top-[1694px]">
       <div id="project" className="absolute w-[54px] h-2.5 left-[49.8vw] top-[783px]">
-        <div className=" w-2.5 h-2.5 left-[44px] top-0 absolute bg-[#4A5C6A] dark:bg-[#757575] rounded-full" />
-        <div className=" w-2.5 h-2.5 left-[23px] top-0 absolute bg-[#4A5C6A] dark:bg-[#757575] rounded-full" />
-        <div className=" w-2.5 h-2.5 left-0 top-0 absolute bg-[#11212D] dark:bg-[#D9D9D9] rounded-full" />
+        <div className="cursor-mickey-hover hover:opacity-80 transition-all duration-100 w-2.5 h-2.5 left-[44px] top-0 absolute bg-[#4A5C6A] dark:bg-[#757575] rounded-full" />
+        <div className="cursor-mickey-hover hover:opacity-80 transition-all duration-100 w-2.5 h-2.5 left-[23px] top-0 absolute bg-[#4A5C6A] dark:bg-[#757575] rounded-full" />
+        <div className="cursor-mickey-hover hover:opacity-80 transition-all duration-100 w-2.5 h-2.5 left-0 top-0 absolute bg-[#11212D] dark:bg-[#D9D9D9] rounded-full" />
       </div>
       <div className="absolute w-[100%] h-[711px] left-0 top-[41px]">
         <div className="absolute w-[651px] h-[89px] left-[27vw] top-[623px] text-center text-[#11212D] dark:text-white text-lg font-medium">

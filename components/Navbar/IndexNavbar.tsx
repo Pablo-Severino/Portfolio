@@ -21,7 +21,7 @@ export const IndexNavbar = () => {
   }, [theme]);
 
   return (
-    <nav className="fixed w-[100%] h-[11vh] z-50 flex items-center bg-[#bababa] bg-opacity-20 dark:bg-[#121212] dark:bg-opacity-20 bg-clip-padding blur-backdrop-filter">
+    <nav className="fixed w-[100%] h-[11vh] z-50 flex items-center bg-[#D4D4D4] bg-opacity-20 dark:bg-[#121212] dark:bg-opacity-20 bg-clip-padding blur-backdrop-filter">
       <Link href="/" className="hover:text-[#434b50] dark:hover:text-gray-400 dark:text-white transition-all duration-200 cursor-mickey-hover">
         <h1 className="absolute left-[60px] top-[16px] text-2xl font-medium">Pablo._</h1>
       </Link>
@@ -57,9 +57,9 @@ export const IndexNavbar = () => {
           </div>
         </SmoothScrollLink>
       </ul>
-      <label htmlFor="check" className="hidden lg:flex absolute min-w-[46px] h-6 top-[3.8vh] bg-gray-200 cursor-mickey-hover rounded-full right-5">
+      <label htmlFor="check" className="hidden lg:flex absolute min-w-[46px] h-6 top-[3.8vh] bg-[#11212D] dark:bg-[#D4D4D4] cursor-mickey-hover rounded-full right-5">
         <input type="checkbox" id="check" className="sr-only peer" onClick={() => setTheme(!theme)}/>
-        <span className="absolute w-2/5 h-4/5 bg-slate-700 rounded-full left-1 top-0.5 peer-checked:bg-yellow-400 peer-checked:left-6 transition-all duration-500"></span>
+        <span className="absolute w-[1.2rem] h-[1.2rem] bg-[#D4D4D4] rounded-full left-1 top-0.5 peer-checked:bg-[#323B41] peer-checked:left-6 transition-all duration-500"></span>
       </label>
 
       {/* Mobile Button */}
@@ -92,7 +92,7 @@ export const IndexNavbar = () => {
         </ul>
         <label htmlFor="toggle" className="block lg:flex absolute min-w-[46px] h-6 bg-gray-200 cursor-pointer rounded-full right-5">
           <input type="checkbox" id="toggle" className="sr-only peer" onClick={() => setTheme(!theme)}/>
-          <span className="w-2/5 h-4/5 bg-slate-700 absolute rounded-full left-1 top-0.5 peer-checked:bg-yellow-400 peer-checked:left-6 transition-all duration-500"></span>
+          <span className="w-2/5 h-4/5 bg-slate-700 dark:bg-[#D4D4D4] absolute rounded-full left-1 top-0.5 peer-checked:bg-[#323B41] peer-checked:left-6 transition-all duration-500"></span>
         </label>
       </div>
     </nav>

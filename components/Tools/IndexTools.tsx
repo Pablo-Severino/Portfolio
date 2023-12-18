@@ -1,3 +1,7 @@
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ['latin'] })
+
 export const IndexTools = () => {
   return (
     <div id="skill" className="absolute w-[100%] h-[666px] left-0 top-[2596px]">
@@ -59,7 +63,7 @@ export const IndexTools = () => {
           <div className="absolute w-16 h-16 left-[11px] top-0 bg-javascript" />
         </div>
       </div>
-      <div className="absolute w-[100%] h-20 left-0 top-[27px] text-center text-black dark:text-white text-[64.30px] font-extrabold">Skills & Tools</div>
+      <div className={`absolute w-[100%] h-20 left-0 top-[27px] text-center text-black dark:text-white text-[64.30px] font-extrabold ${inter.className}`}>Skills & Tools</div>
     </div>
   );
 }
